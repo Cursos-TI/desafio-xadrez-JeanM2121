@@ -1,9 +1,11 @@
 #include <stdio.h>   
 #include <stdlib.h>
 #include <conio.h>
+  
  
+//DESENVOLVI O CODIGO ME BASEANDO EM TODAS AS POSIÇÕES POSSIVEIS QUE CADA PEÇA PODE FAZER....
 int main() {
-        printf("torre\n");
+        printf("****TORRE****\n");
    for ( int i = 0; i < 5; i++) {
 
         printf("Cima \n");
@@ -22,7 +24,7 @@ int main() {
 
         printf("Baixo \n");
     }
-        printf("bispo\n");
+        printf("****BISPO****\n");
    for ( int i = 0; i < 5; i++) {
 
         printf("Diagonal cima direita\n");
@@ -43,7 +45,7 @@ int main() {
         printf("Diagonal baixo esquerda \n");
     }
 
-        printf("rainha\n");
+        printf("****RAINHA****\n");
    for ( int i = 0; i < 5; i++) {
 
         printf("Cima \n");
