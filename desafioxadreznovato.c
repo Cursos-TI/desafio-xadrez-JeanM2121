@@ -5,7 +5,7 @@
  
 //DESENVOLVI O CODIGO ME BASEANDO EM TODAS AS POSIÇÕES POSSIVEIS QUE CADA PEÇA PODE FAZER....
 int main() {
-        printf("****TORRE****\n");
+        printf("****TORRE****\n"); //Movimentos possiveis da torre!!
    for ( int i = 0; i < 5; i++) {
 
         printf("Cima \n");
@@ -24,7 +24,7 @@ int main() {
 
         printf("Baixo \n");
     }
-        printf("****BISPO****\n");
+        printf("****BISPO****\n"); //Movimentos possiveis do bispo!!!
    for ( int i = 0; i < 5; i++) {
 
         printf("Diagonal cima direita\n");
@@ -45,7 +45,7 @@ int main() {
         printf("Diagonal baixo esquerda \n");
     }
 
-        printf("****RAINHA****\n");
+        printf("****RAINHA****\n"); //Movimentos possiveis da rainha!!!
    for ( int i = 0; i < 5; i++) {
 
         printf("Cima \n");
