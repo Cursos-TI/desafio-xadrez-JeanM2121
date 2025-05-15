@@ -27,22 +27,22 @@ int main() {
         printf("****BISPO****\n"); //Movimentos possiveis do bispo!!!
    for ( int i = 0; i < 5; i++) {
 
-        printf("Diagonal cima direita\n");
+        printf("Cima,Direita... \n");
    }
    
    for ( int i = 0; i < 5; i++) {
 
-        printf("Diagonal baixo direita \n");
+        printf("Cima,esquerda... \n");
     }
 
     for ( int i = 0; i < 5; i++) {
 
-        printf("Diagonal cima esquerda \n");
+        printf("baixo,Direita... \n");
     }
     
     for ( int i = 0; i < 5; i++) {
 
-        printf("Diagonal baixo esquerda \n");
+        printf("baxio, esquerda... \n");
     }
 
         printf("****RAINHA****\n"); //Movimentos possiveis da rainha!!!
