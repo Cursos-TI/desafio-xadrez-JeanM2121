@@ -2,7 +2,7 @@
 
 int main() {
     int bispo = 0; 
-    int cavalo = 1;
+    int cavalo = 0;
     int rainha = 0;
     int torre = 0;
 
