@@ -6,8 +6,6 @@
 //DESENVOLVI O CODIGO ME BASEANDO EM TODAS AS POSIÇÕES POSSIVEIS QUE CADA PEÇA POSSA FAZER PULANDO 5 CASAS....
 int main() {
 
-    int cavalo = 1;
-
     printf("****TORRE****\n"); //Movimentos possiveis da torre!!
    for ( int i = 0; i < 5; i++) {
 
@@ -87,15 +85,6 @@ for ( int i = 0; i < 5; i++) {
 
     printf("Esquerda \n");
 }
-
-printf("*** CAVALO! *** \n");
-    while(cavalo --){
-        for (int i = 0; i < 2; i++){
-            printf("Baixo... \n");
-         
-        }
-        printf("Esquerda... \n");
-    }
 
     return 0;
 
