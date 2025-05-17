@@ -1,89 +1,52 @@
-#include <stdio.h>   
-#include <stdlib.h>
-#include <conio.h>
-  
- 
-//DESENVOLVI O CODIGO ME BASEANDO EM TODAS AS POSIÇÕES POSSIVEIS QUE CADA PEÇA PODE FAZER....
+#include <stdio.h>
+
 int main() {
-        printf("****TORRE****\n"); //Movimentos possiveis da torre!!
-   for ( int i = 0; i < 5; i++) {
+    int bispo = 0; 
+    int cavalo = 1;
+    int rainha = 0;
+    int torre = 0;
 
-        printf("Cima \n");
-   }
-    for ( int i = 0; i < 5; i++) {
-
-        printf("Direita \n");
+    for (int i = 1; i <= 10; i++) {
+        for (int j = 1; j <= 10; j++) {
+            printf("%d\t", i * j);
+        }
+        printf("\n");
     }
+
+    printf("Movimentando o Bispo (5 casas):\n");
+
+    do {
+        printf("Cima, Direita\n");  
+        bispo++; 
+    } while (bispo < 5); 
+
+    printf("Movimentando o torre (5 casas):\n");
+
+    do {
+        printf("Cima\n");  
+        torre++; 
+    } while (torre < 5); 
+
+    printf("Movimentando a rainha (5 casas):\n");
+
+    do {
+        printf("esquerda\n");  
+        rainha++; 
+    } while (rainha < 5); 
+
+    printf("movimentando o cavalo \n");
     
-    for ( int i = 0; i < 5; i++) {
-
-        printf("Esquerda \n");
-    }
-    
-    for ( int i = 0; i < 5; i++) {
-
-        printf("Baixo \n");
-    }
-        printf("****BISPO****\n"); //Movimentos possiveis do bispo!!!
-   for ( int i = 0; i < 5; i++) {
-
-        printf("Cima,Direita... \n");
-   }
-   
-   for ( int i = 0; i < 5; i++) {
-
-        printf("Cima,esquerda... \n");
-    }
-
-    for ( int i = 0; i < 5; i++) {
-
-        printf("baixo,Direita... \n");
-    }
-    
-    for ( int i = 0; i < 5; i++) {
-
-        printf("baxio, esquerda... \n");
-    }
-
-        printf("****RAINHA****\n"); //Movimentos possiveis da rainha!!!
-   for ( int i = 0; i < 5; i++) {
-
-        printf("Cima \n");
-   }
-          
-   for ( int i = 0; i < 5; i++) {
-
-         printf("baixo \n");
+    while(cavalo --){
+        for (int i = 0; i < 2; i++){
+            printf("Baixo... \n");
+            
+        }
+        printf("Esquerda... \n");
         
-   }
-   for ( int i = 0; i < 5; i++) {
+    }
 
-    printf("Diagonal cima direita\n");
-}
 
-for ( int i = 0; i < 5; i++) {
-
-    printf("Diagonal baixo direita \n");
-}
-
-for ( int i = 0; i < 5; i++) {
-
-    printf("Diagonal cima esquerda \n");
-}
-
-for ( int i = 0; i < 5; i++) {
-
-    printf("Diagonal baixo esquerda \n");
-}
-for ( int i = 0; i < 5; i++) {
-
-    printf("Direita\n");
-}
-
-for ( int i = 0; i < 5; i++) {
-
-    printf("Esquerda \n");
-}
 
     return 0;
 }
+    
