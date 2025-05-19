@@ -1,97 +1,46 @@
-#include <stdio.h>   
-#include <stdlib.h>
-#include <conio.h>
-  
- 
-//DESENVOLVI O CODIGO ME BASEANDO EM TODAS AS POSIÇÕES POSSIVEIS QUE CADA PEÇA POSSA FAZER PULANDO 5 CASAS...
+#include <stdio.h>
+
 int main() {
-
-    printf("****TORRE****\n"); //Movimentos possiveis da torre!!
-   for ( int i = 0; i < 5; i++) {
-
-        printf("Cima \n");
-   }
-    for ( int i = 0; i < 5; i++) {
-
-        printf("Direita \n");
-    }
-    
-    for ( int i = 0; i < 5; i++) {
-
-        printf("Esquerda \n");
-    }
-    
-    for ( int i = 0; i < 5; i++) {
-
-        printf("Baixo \n");
-    }
-        printf("****BISPO****\n"); //Movimentos possiveis do bispo!!!
-   for ( int i = 0; i < 5; i++) {
-
-        printf("cima, direita\n");
-   }
-   
-   for ( int i = 0; i < 5; i++) {
-
-        printf(" baixo, direita \n");
+    // Movimento da Torre usando FOR
+    printf("Movimento da Torre:\n");
+    for (int i = 1; i <= 5; i++) {
+        printf("Direita\n");
     }
 
-    for ( int i = 0; i < 5; i++) {
+    printf("\n");
 
-        printf(" cima, esquerda \n");
+    // Movimento do Bispo usando WHILE
+    printf("Movimento do Bispo:\n");
+    int j = 1;
+    while (j <= 5) {
+        printf("Cima Direita\n");
+        j++;
     }
-    
-    for ( int i = 0; i < 5; i++) {
 
-        printf(" baixo, esquerda \n");
+    printf("\n");
+
+    // Movimento da Rainha usando DO-WHILE
+    printf("Movimento da Rainha:\n");
+    int k = 1;
+    do {
+        printf("Esquerda\n");
+        k++;
+    } while (k <= 8);
+
+    printf("\n");
+
+    // Movimento do Cavalo com loops aninhados
+    // Cavalo deve se mover 2 casas para baixo e 1 para a esquerda
+    printf("Movimento do Cavalo:\n");
+    for (int i = 1; i <= 2; i++) {
+        printf("Baixo\n");
     }
 
-        printf("****RAINHA****\n"); //Movimentos possiveis da rainha!!!
-   for ( int i = 0; i < 5; i++) {
-
-        printf("Cima \n");
-   }
-          
-   for ( int i = 0; i < 5; i++) {
-
-         printf("baixo \n");
-        
-   }
-   for ( int i = 0; i < 5; i++) {
-
-    printf(" cima, direita\n");
-}
-
-for ( int i = 0; i < 5; i++) {
-
-    printf(" baixo, direita \n");
-}
-
-for ( int i = 0; i < 5; i++) {
-
-    printf(" cima, esquerda \n");
-}
-
-for ( int i = 0; i < 5; i++) {
-
-    printf("baixo, esquerda \n");
-}
-for ( int i = 0; i < 5; i++) {
-
-    printf("Direita\n");
-}
-
-for ( int i = 0; i < 5; i++) {
-
-    printf("Esquerda \n");
-}
+    int l = 1;
+    while (l <= 1) {
+        printf("Esquerda\n");
+        l++;
+    }
 
     return 0;
-
-
 }
-
-
-
-
-    
