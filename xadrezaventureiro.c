@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+// Nesse codigo desenvolvi somente com uma possibilidade para cada peça
 int main() {
     // Movimento da Torre usando FOR
     printf("Movimento da Torre:\n");
