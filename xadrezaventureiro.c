@@ -1,7 +1,9 @@
-#include <stdio.h>
-// Nesse codigo desenvolvi somente com uma possibilidade para cada peça
+#include <stdio.h>   
+#include <stdlib.h>
+#include <conio.h>
+
 int main() {
-    // Movimento da Torre usando FOR
+    //Movimento da Torre com o FOR
     printf("Movimento da Torre:\n");
     for (int i = 1; i <= 5; i++) {
         printf("Direita\n");
@@ -9,7 +11,7 @@ int main() {
 
     printf("\n");
 
-    // Movimento do Bispo usando WHILE
+    //Movimento do Bispo com o WHILE
     printf("Movimento do Bispo:\n");
     int j = 1;
     while (j <= 5) {
@@ -19,7 +21,7 @@ int main() {
 
     printf("\n");
 
-    // Movimento da Rainha usando DO-WHILE
+    //Movimento da Rainha com o DO-WHILE
     printf("Movimento da Rainha:\n");
     int k = 1;
     do {
@@ -29,11 +31,11 @@ int main() {
 
     printf("\n");
 
-    // Movimento do Cavalo com loops aninhados
-    // Cavalo deve se mover 2 casas para baixo e 1 para a esquerda
+    //Movimento do Cavalo com loops aninhados
+    //Cavalo deve se mover 2 casas para baixo e 1 para a esquerda
     printf("Movimento do Cavalo:\n");
     for (int i = 1; i <= 2; i++) {
-        printf("Baixo\n");
+        printf("cima\n");
     }
 
     int l = 1;
