@@ -31,7 +31,7 @@ int main() {
 
     printf("\n");
 
-    //Movimento do Cavalo com loops aninhados
+    //Movimento do Cavalo com loops alinhados
     //Cavalo deve se mover 2 casas para baixo e 1 para a esquerda
     printf("Movimento do Cavalo:\n");
     for (int i = 1; i <= 2; i++) {
