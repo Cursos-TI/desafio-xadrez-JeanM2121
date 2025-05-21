@@ -1,6 +1,5 @@
 #include <stdio.h>   
-#include <stdlib.h>
-#include <conio.h>
+
   
  
 //DESENVOLVI O CODIGO ME BASEANDO EM TODAS AS POSIÇÕES POSSIVEIS QUE CADA PEÇA POSSA FAZER PULANDO 5 CASAS...
