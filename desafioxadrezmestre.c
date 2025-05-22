@@ -1,20 +1,20 @@
 #include <stdio.h>
 
-// Função recursiva para movimentação da Torre
+//Movimentação da torre na função recursiva
 void movertorre(int casas) {
     if (casas == 0) return;
     printf(" Direita (%d)\n", casas);
     movertorre(casas - 1);
 }
 
-// Função recursiva para movimentação da Rainha
+//Movimentação da Rainha na função recursiva
 void moverrainha(int casas) {
     if (casas == 0) return;
     printf("Esquerda (%d)\n", casas);
     moverrainha(casas - 1);
 }
 
-// Função recursiva para movimentação do Bispo
+//Movimentação do Bispo na função recursiva
 void moverbispo(int casas) {
     if (casas == 0) return;
     printf("Cima,Direita (%d)\n", casas);
@@ -47,16 +47,15 @@ void moverCavalo(){
 
 int main() {
    
-     // Movimentação da Torre
+    // Movimentação da Torre
      printf("Movimentação da Torre:\n");
      movertorre(5);
     
-          // Movimentação do Bispo (Recursivo)
+    // Movimentação do Bispo (Recursivo)
     printf("Movimentação do Bispo (Recursivo):\n");
     moverbispo(5);     
     
-    
-         // Movimentação do Bispo (Loops Aninhados)
+    // Movimentação do Bispo (Loops Aninhados)
     printf("Movimentação bispo em loop \n");
     moverbispoloop(5);
    
